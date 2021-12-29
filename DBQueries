@@ -47,6 +47,8 @@ INSERT INTO roles(name) values('ADMIN');
  INSERT INTO users(username,password) values('USER','$2a$10$2VGUqSgeLF0/Pc3In1gk2OExYisZ.N1oZYE2SVbwqMRr8cYov2eU.');
  INSERT INTO users(username,password) values('ADMIN','$2a$10$ZSJJqaJ5miTVCAhHyVxc3.PzF4PHZoky5MJGY1N6MztJ7LsYOs46m');
  
+ ---Actual passwords for USER -- user123 and ADMIN ----admin123
+ 
  -----Queries to insert data in users_role table
  INSERT INTO users_roles (user_id, role_id) VALUES (1, 1); 
 INSERT INTO users_roles (user_id, role_id) VALUES (2, 2); 
